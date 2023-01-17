@@ -9,22 +9,28 @@
 /* HEADER */
 header {
     width: 70vw;
-    height: 5vh;
+    height: auto;
     margin: 0 auto;
-    position: relative ;
+    position: relative;
+    line-height: 100px;
+}
+
+header img{
+    vertical-align: middle;
+    padding-right: 15px;
 }
 
 header h1{
     position: relative;
-    top: 10px;
     font-size: 3em;
     display: inline;
+    vertical-align: middle;
 }
 
 header button{
     position: absolute;
     right: 0;
-    top: 10px;
+    top: 25px;
     padding: 10px;
     font-size: 1.5em;
     width: 100px;
@@ -33,7 +39,7 @@ header button{
 /* MAIN */
 
 main{
-    height: 90vh;
+    height: 85vh;
     background-color: #7fffd4;
     display: flex;
     justify-content: center;
@@ -69,4 +75,3 @@ footer{
 footer span{
     font-size: 1.5em;
 }
-

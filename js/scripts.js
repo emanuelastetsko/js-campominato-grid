@@ -36,6 +36,7 @@ const myButton = document.getElementById("play");
 
 // Al click deve apparire la griglia con tutte le sue celle
 myButton.addEventListener("click",
+
   function () {
 
     container.style.display = "inline";
