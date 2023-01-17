@@ -35,8 +35,24 @@ header button{
 main{
     height: 90vh;
     background-color: #7fffd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+main #grid{
+    height: 80vh;
+    width: 50vw;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .square{
+    height: calc(100% / 10);
+    width: calc(100% / 10);
+    border: 1px solid black;
+}
 
 /* FOOTER */
 footer{
